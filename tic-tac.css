@@ -1,0 +1,45 @@
+#tic-tac-board {
+    border-collapse: collapse;
+}
+
+#tic-tac-board td {
+    border: 1px solid black;
+}
+
+#tic-tac-board .tic-tac-input{
+    border: none;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#tic-tac-board .tic-tac-input.disable.won {
+    background-color: aquamarine;
+}
+
+#tic-tac-board .tic-tac-input.played {
+    background-color: beige;
+}
+
+#tic-tac-board .tic-tac-input.disable {
+    background-color: lightgray;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#reset-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
